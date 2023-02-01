@@ -1,4 +1,9 @@
-﻿int[] CreateRandomeArray(int num)
+﻿/***********************/
+/*****Te3Ka_PaynE*******/
+/*Mnement4813@yandex.ru*/
+/***********************/
+
+int[] CreateRandomeArray(int num)
 {
     int[] array = new int[num];
     Random randome = new Random();
@@ -7,6 +12,15 @@
         array[i] = randome.Next(1, 100);
     }
     return array;
+}
+
+//Метод с указанием автора
+void Author()
+{
+    Console.WriteLine();
+    Console.WriteLine("Программа создана Te3Ka_PaynE.");
+    Console.WriteLine("E-mail: Mnement4813@yandex.ru");
+    Console.WriteLine();
 }
 
 //Печать массива на экран

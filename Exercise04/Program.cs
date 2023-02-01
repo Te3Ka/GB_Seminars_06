@@ -17,6 +17,7 @@ void Author()
     Console.WriteLine();
 }
 
+//Печать массива на экран
 void PrintArray(uint[] arrayPruint)
 {
     Console.Write("[");
