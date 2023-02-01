@@ -30,6 +30,7 @@ void PrintArray(uint[] arrayPruint)
     }
 }
 
+//Создание массива чисел Фибоначи
 uint[] Fibonacci(uint number)
 {
     uint[] arrayFib = new uint[number];
