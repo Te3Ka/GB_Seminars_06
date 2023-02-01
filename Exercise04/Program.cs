@@ -20,11 +20,10 @@ void Author()
 //Печать массива на экран
 void PrintArray(uint[] arrayPruint)
 {
-    Console.Write("[");
     for (int index = 0; index < arrayPruint.Length; index++)
     {
         if (index == (arrayPruint.Length - 1))
-            Console.WriteLine($"{arrayPruint[index]}]");
+            Console.WriteLine($"{arrayPruint[index]}");
         else
             Console.Write($"{arrayPruint[index]}, ");
     }
